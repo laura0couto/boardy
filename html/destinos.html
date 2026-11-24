@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinos · Boardy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-pag="destinos">
+  <div id="topo"></div>
+  <main class="wrap pagina">
+    <h1>Para onde você quer ir?</h1>
+    <p class="lead">Filtre por continente e clique em um país para ver idioma, custos e visto.</p>
+    <div class="filtros">
+      <input id="busca" type="search" placeholder="Buscar país..." aria-label="Buscar país">
+      <button class="chip" data-c="Todos" aria-pressed="true">Todos</button>
+      <button class="chip" data-c="América" aria-pressed="false">América</button>
+      <button class="chip" data-c="Europa" aria-pressed="false">Europa</button>
+      <button class="chip" data-c="Oceania" aria-pressed="false">Oceania</button>
+    </div>
+    <div id="grade" class="grade"></div>
+  </main>
+  <div id="rodape"></div>
+  <script src="../js/main.js"></script>
+</body>
+</html>
