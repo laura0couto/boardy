@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Histórias reais · Boardy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-pag="historias">
+  <div id="topo"></div>
+  <main class="wrap pagina">
+    <h1>Histórias de quem já foi</h1>
+    <p class="lead">Relatos de professores que estudaram fora, coletados nas entrevistas do nosso grupo.</p>
+    <div id="relatos" class="relatos">
+      <article class="relato"><h3>[Nome do professor 1]</h3><small>[País] · [Tipo de intercâmbio] · [Ano]</small>
+        <p style="margin-top:8px">[Trecho da entrevista: como foi a experiência e qual a maior dificuldade.]</p>
+        <p class="dica"><strong>Dica:</strong> [conselho para quem vai pela primeira vez]</p></article>
+      <article class="relato"><h3>[Nome do professor 2]</h3><small>[País] · [Tipo de intercâmbio] · [Ano]</small>
+        <p style="margin-top:8px">[Trecho da entrevista: como foi a experiência e qual a maior dificuldade.]</p>
+        <p class="dica"><strong>Dica:</strong> [conselho para quem vai pela primeira vez]</p></article>
+      <article class="relato"><h3>[Nome do professor 3]</h3><small>[País] · [Tipo de intercâmbio] · [Ano]</small>
+        <p style="margin-top:8px">[Trecho da entrevista: como foi a experiência e qual a maior dificuldade.]</p>
+        <p class="dica"><strong>Dica:</strong> [conselho para quem vai pela primeira vez]</p></article>
+    </div>
+    <h2>Já fez intercâmbio? Conte sua história</h2>
+    <form id="envio" class="envio" style="margin-top:16px">
+      <label>Nome<input name="nome" required></label>
+      <label>País<input name="pais" required></label>
+      <label>Seu relato<textarea name="relato" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Enviar história</button>
+      <p id="ok" role="status"></p>
+    </form>
+  </main>
+  <div id="rodape"></div>
+  <script src="../js/main.js"></script>
+</body>
+</html>
